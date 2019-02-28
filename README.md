@@ -42,5 +42,5 @@ https://f-droid.org/repository/browse/?fdid=de.arnowelzel.android.periodical
  - http://developer.android.com/tools/studio/index.html
  
  
-* * Copyright (C) 2012-2018 Arno Welzel
-Copyright (C) 2019 Ave Kõrve-Noorkõiv, Raimond Hendrik Nutt, Kai Samarüütel * *
+**Copyright (C) 2012-2018 ** *Arno Welzel*
+**Copyright (C) 2019** *Ave Kõrve-Noorkõiv, Raimond Hendrik Nutt, Kai Samarüütel*
