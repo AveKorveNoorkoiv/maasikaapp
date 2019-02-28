@@ -20,8 +20,9 @@ Fork:
   https://play.google.com/store/apps/details?id=de.arnowelzel.android.periodical
 ```
 *Download latest version at F-Droid*
+```
 https://f-droid.org/repository/browse/?fdid=de.arnowelzel.android.periodical
-
+```
 *Download latest version as APK:*
 ```
   http://arnowelzel.de/download/Periodical.apk
