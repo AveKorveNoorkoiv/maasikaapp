@@ -1,10 +1,7 @@
 #  **Maasikas 1.23**
-#Minu esimene kalender
+# Minu esimene kalender
 
 A calendar to track your menstruation and calculate possible fertile days
-
-Copyright (C) 2012-2018 Arno Welzel
-Copyright (C) 2019 Ave Kõrve-Noorkõiv, Raimond Hendrik Nutt, Kai Samarüütel
 
 App language:
 Estonian
@@ -43,3 +40,7 @@ https://f-droid.org/repository/browse/?fdid=de.arnowelzel.android.periodical
 
 **Android Studio**  
  - http://developer.android.com/tools/studio/index.html
+ 
+ 
+* * Copyright (C) 2012-2018 Arno Welzel
+Copyright (C) 2019 Ave Kõrve-Noorkõiv, Raimond Hendrik Nutt, Kai Samarüütel * *
