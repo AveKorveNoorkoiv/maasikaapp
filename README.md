@@ -1,4 +1,4 @@
-#  **Maasikas 1.23** 
+#  Maasikas 1.23
 
 **A calendar to track your menstruation and calculate possible fertile days**
 
@@ -8,28 +8,26 @@ Estonian
 
 **Getting Started**
 
-*Source:*
-
-Fork:
+**Source:**
 ```
   https://github.com/arnowelzel/periodical
  ```
 
-*Download latest version at Google Play:*
+**Download latest version at Google Play:**
 ```
   https://play.google.com/store/apps/details?id=de.arnowelzel.android.periodical
 ```
-*Download latest version at F-Droid*
+**Download latest version at F-Droid**
 ```
 https://f-droid.org/repository/browse/?fdid=de.arnowelzel.android.periodical
 ```
-*Download latest version as APK:*
+**Download latest version as APK:**
 ```
   http://arnowelzel.de/download/Periodical.apk
 ```
-*Tools to used to build this project:*
+**Tools to used to build this project:**
 
-*Android Studio*
+**Android Studio**
 ```
   http://developer.android.com/tools/studio/index.html
  ```
@@ -54,6 +52,6 @@ along with this program.  If not, see
 ```<http://www.gnu.org/licenses/>.```
 
  
-**Copyright (C) 2012-2018 ** *Arno Welzel*
+**Copyright (C) 2012-2018** *Arno Welzel*
 
 **Copyright (C) 2019** *Ave Kõrve-Noorkõiv, Raimond Hendrik Nutt, Kai Samarüütel*
