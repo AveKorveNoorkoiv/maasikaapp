@@ -32,7 +32,7 @@
     <string name="about_title">Kalendrist …</string>
     <string name="help_title">Abi</string>
     <string name="backup_title">Varunda</string>
-    <string name="backup_text">Tahad varundada oma andmeid kohe?\See tegevus asendab eelnevalt varundatud andmed!</string>
+    <string name="backup_text">Tahad varundada oma andmeid kohe?\ See tegevus asendab eelnevalt varundatud andmed!</string>
     <string name="backup_ok">Jah</string>
     <string name="backup_cancel">Tühista</string>
     <string name="backup_finished">Varundatud</string>
@@ -43,7 +43,7 @@
     <string name="restore_cancel">Tühista</string>
     <string name="restore_finished">Taastamine valmis</string>
     <string name="restore_failed">Taastamine ei õnnestunud</string>
-    <string name="permissions_needed">To create or restore backups, Periodical needs permission to access file storage.</string>
+    <string name="permissions_needed">Varundamiseks või taastamiseks vajab Maasikas luba kaustade juurde.</string>
     <string name="permissions_needed_ok">Jah</string>
     <string name="event_periodstart">Menstruatsiooni algus</string>
     <string name="event_periodlength">Viimne tsükkel kestis %s päeva</string>
@@ -71,50 +71,55 @@
         <item>1</item>
     </string-array>
     <string name="pref_maximum_cycle_length">Keskmine tsükli pikkus</string>
-    <string name="invalid_maximum_cycle_length">The maximum cycle length must be at least 60!</string>
-    <string name="pref_direct_details">Go directly to the details</string>
-    <string name="pref_show_cycle">Show day of cycle</string>
-    <string name="previous_month">Previous month</string>
-    <string name="next_month">Next month</string>
-    <string name="label_average_cycle">average cycle</string>
-    <string name="label_shortest_cycle">shortest cycle</string>
-    <string name="label_longest_cycle">longest cycle</string>
-    <string name="label_infertile">infertile</string>
-    <string name="label_fertile">fertile</string>
-    <string name="label_period_started">period has started</string>
-    <string name="label_period">period</string>
-    <string name="label_period_predicted">period predicted</string>
-    <string name="label_ovulation">ovulation</string>
+    <string name="invalid_maximum_cycle_length">Keskmine tsükli pikkus peab jääma alla 36</string>
+    <string name="pref_direct_details">Muuda detailselt</string>
+    <string name="pref_show_cycle">Näita mitmes tsükli päev on</string>
+    <string name="previous_month">Eelmine kuu</string>
+    <string name="next_month">Järgmine kuu</string>
+    <string name="label_average_cycle">keskmine tsükkel</string>
+    <string name="label_shortest_cycle">lühim tsükkel</string>
+    <string name="label_longest_cycle">pikim tsükkel</string>
+    <string name="label_infertile">ei ole viljakas</string>
+    <string name="label_fertile">viljakas</string>
+    <string name="label_period_started">menstruatsiooni algus</string>
+    <string name="label_period">menstruatsioon</string>
+    <string name="label_period_predicted">eeldatav menstruatsioon</string>
+    <string name="label_ovulation">ovulatsioon</string>
     <string name="asset_about">en/about.html</string>
     <string name="asset_help">en/help.html</string>
-    <string name="label_details_period">Period</string>
-    <string name="label_details_yes">Yes</string>
-    <string name="label_details_no">No</string>
-    <string name="label_details_intensity">Intensity</string>
+    <string name="label_details_period">Menstruatsioon</string>
+    <string name="label_details_yes">Jah</string>
+    <string name="label_details_no">Ei</string>
+    <string name="label_details_intensity">Tugevus</string>
     <string name="label_details_intensity1">1</string>
     <string name="label_details_intensity2">2</string>
     <string name="label_details_intensity3">3</string>
     <string name="label_details_intensity4">4 (strong)</string>
-    <string name="label_details_notes">Notes</string>
-    <string name="label_details_events">Events/Symptoms</string>
-    <string name="label_details_ev1" tools:keep="@string/label_details_ev1">Intercourse</string>
-    <string name="label_details_ev2" tools:keep="@string/label_details_ev2">Cramps</string>
-    <string name="label_details_ev3" tools:keep="@string/label_details_ev3">Back pain</string>
-    <string name="label_details_ev4" tools:keep="@string/label_details_ev4">Middle pain left</string>
-    <string name="label_details_ev5" tools:keep="@string/label_details_ev5">Middle pain right</string>
-    <string name="label_details_ev6" tools:keep="@string/label_details_ev6">Breast pain/dragging pain</string>
-    <string name="label_details_ev7" tools:keep="@string/label_details_ev7">Thrush/candida</string>
-    <string name="label_details_ev8" tools:keep="@string/label_details_ev8">Discharge</string>
-    <string name="label_details_ev9" tools:keep="@string/label_details_ev9">Intense bleeding</string>
-    <string name="label_details_ev10" tools:keep="@string/label_details_ev10">Temperature fluctuations</string>
-    <string name="label_details_ev11" tools:keep="@string/label_details_ev11">Pimples</string>
-    <string name="label_details_ev12" tools:keep="@string/label_details_ev12">Bloating</string>
-    <string name="label_details_ev13" tools:keep="@string/label_details_ev13">Fainting</string>
-    <string name="label_details_ev14" tools:keep="@string/label_details_ev14">Grumpiness</string>
-    <string name="label_details_ev15" tools:keep="@string/label_details_ev15">Nausea</string>
-    <string name="label_details_ev16" tools:keep="@string/label_details_ev16">Cravings</string>
-    <string name="label_details_ev17" tools:keep="@string/label_details_ev17">Headache/migraine</string>
-    <string name="label_period_day">Period, day %d</string>
-    <string name="navigation_drawer_open">Open navigation drawer</string>
-    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="label_details_notes">Märkmed</string>
+    <string name="label_details_events">Sündmused/Sümptomid</string>
+
+    <string name="label_details_ev1" tools:keep="@string/label_details_ev1">Peavalu/migreen</string>
+    <string name="label_details_ev2" tools:keep="@string/label_details_ev2">Karvakasv kaenla all</string>
+    <string name="label_details_ev3" tools:keep="@string/label_details_ev3">Karvakasv häbemel</string>
+    <string name="label_details_ev4" tools:keep="@string/label_details_ev4">Valgevoolus</string>
+    <string name="label_details_ev5" tools:keep="@string/label_details_ev5">Krambid</string>
+    <string name="label_details_ev6" tools:keep="@string/label_details_ev6">Seljavalu</string>
+    <string name="label_details_ev7" tools:keep="@string/label_details_ev7">Alakõhu valu vasakul </string>
+    <string name="label_details_ev8" tools:keep="@string/label_details_ev8">Alakõhu valu paremal</string>
+    <string name="label_details_ev9" tools:keep="@string/label_details_ev9">Rindade tundlikkus</string>
+    <string name="label_details_ev10" tools:keep="@string/label_details_ev10">Lööve/soor</string>
+    <string name="label_details_ev11" tools:keep="@string/label_details_ev11">Määrimine</string>
+    <string name="label_details_ev12" tools:keep="@string/label_details_ev12">Tugev veritsus</string>
+    <string name="label_details_ev13" tools:keep="@string/label_details_ev13">Kehatemperatuuri muutus</string>
+    <string name="label_details_ev14" tools:keep="@string/label_details_ev14">Vistrikud</string>
+    <string name="label_details_ev15" tools:keep="@string/label_details_ev15">Puhitus</string>
+    <string name="label_details_ev16" tools:keep="@string/label_details_ev16">Minestamine</string>
+    <string name="label_details_ev17" tools:keep="@string/label_details_ev17">Tujukus</string>
+    <string name="label_details_ev18" tools:keep="@string/label_details_ev18">Nohu</string>
+    <string name="label_details_ev19" tools:keep="@string/label_details_ev19">Isud</string>
+    <string name="label_details_ev20" tools:keep="@string/label_details_ev20">Vahekord</string>
+
+    <string name="label_period_day">Menstruatsioon, päev %d</string>
+    <string name="navigation_drawer_open">Ava menüü</string>
+    <string name="navigation_drawer_close">Sulge menüü</string>
 </resources>

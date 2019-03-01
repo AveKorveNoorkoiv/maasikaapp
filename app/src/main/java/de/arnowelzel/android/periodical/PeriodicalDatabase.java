@@ -46,7 +46,7 @@ import static java.lang.String.*;
 class PeriodicalDatabase {
     public final Integer DEFAULT_PERIOD_LENGTH = 4;
     public final Integer DEFAULT_LUTEAL_LENGTH = 14;
-    public final Integer DEFAULT_CYCLE_LENGTH = 28;
+    public final Integer DEFAULT_CYCLE_LENGTH = 183;
     public final Integer DEFAULT_START_OF_WEEK = 1;
     public final Boolean DEFAULT_DIRECT_DETAILS = false;
     public final Boolean DEFAULT_SHOW_CYCLE = true;
@@ -512,7 +512,7 @@ class PeriodicalDatabase {
         maximumcyclelength = preferences.getInt("maximum_cycle_length", DEFAULT_CYCLE_LENGTH);
 
         // Just a safety measure: limit maximum cycle lengths to the allowed minimum value
-        if(maximumcyclelength < 36) maximumcyclelength = 36;
+        if(maximumcyclelength < 60) maximumcyclelength = 60;
 
         // Clean up existing data
         dayEntries.removeAllElements();
@@ -523,7 +523,7 @@ class PeriodicalDatabase {
         if (result.moveToNext()) {
             countlimit = result.getInt(0);
             countlimit -= 13;
-            if (countlimit < 13) countlimit = 14;
+            if (countlimit < 1) countlimit = 1;
         }
         result.close();
 
