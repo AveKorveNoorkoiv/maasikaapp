@@ -11,31 +11,13 @@ Estonian
 **Source:**
 ```
   https://github.com/arnowelzel/periodical
- ```
-
-**Download latest version at Google Play:**
-```
-  https://play.google.com/store/apps/details?id=de.arnowelzel.android.periodical
-```
-**Download latest version at F-Droid**
-```
-https://f-droid.org/repository/browse/?fdid=de.arnowelzel.android.periodical
-```
-**Download latest version as APK:**
-```
-  http://arnowelzel.de/download/Periodical.apk
 ```
 **Tools to used to build this project:**
 
 **Android Studio**
 ```
   http://developer.android.com/tools/studio/index.html
- ```
-
-
-**If you want to help with the translation, you can join the project on Crowdin:**
 ```
-  https://crwd.in/periodical
 ```
 This program is free software: you can redistribute it and/or modify
 it under the terms of the GNU General Public License as published by
